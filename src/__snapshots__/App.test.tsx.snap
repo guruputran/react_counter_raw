@@ -2,8 +2,27 @@
 
 exports[`snapshot testing snapshot for App component 1`] = `
 <div
-  className="sc-bdnxRM hvMYFG"
+  className="App"
 >
-  10:26:48 pm
+  <div
+    className="sc-bdnxRM fUvlCg"
+  >
+    Clicks: 
+    0
+    <span>
+      <button
+        className="sc-gtsrHT cXjXDF"
+        onClick={[Function]}
+      >
+        Increment
+      </button>
+      <button
+        className="sc-gtsrHT cXjXDF"
+        onClick={[Function]}
+      >
+        Decrement
+      </button>
+    </span>
+  </div>
 </div>
 `;
